@@ -25,6 +25,9 @@
     "@types/classnames": "^2.3.1",
     "@typescript-eslint/eslint-plugin": "^5.52.0",
     "@typescript-eslint/parser": "^5.52.0",
-    "eslint": "^8.34.0"
+    "eslint": "^8.34.0",
+    "stylelint": "^15.1.0",
+    "stylelint-config-standard": "^30.0.1",
+    "typescript-plugin-css-modules": "^4.1.1"
   }
 }

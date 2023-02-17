@@ -18,12 +18,15 @@ a{
 *{
   box-sizing: border-box;
 }
+/*:active,:hover,:focus{outline:0;outline-offset:0}*/
+:active,:hover,:focus{outline-offset:0;}
 
 .container{
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
+
 
 :root{
     --black: #3B434E;
