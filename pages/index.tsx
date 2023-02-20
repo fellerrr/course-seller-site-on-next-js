@@ -28,9 +28,7 @@ function Home({menu }:HomeProps) {
           <Tag size={'m'} color={'primary'}>primary</Tag>
           <Tag color={'primary'}>primary</Tag>
           <Rating rating={rating} isEditable setRating={setRaring}/>
-            <ul>
-                {menu.map(m=><li key={m._id.secondCategory}>{m._id.secondCategory}</li>)}
-            </ul>
+
         </>
     );
 }
